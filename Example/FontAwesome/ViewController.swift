@@ -7,17 +7,23 @@
 //
 
 import UIKit
+import FontAwesome
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let label = UILabel()
+        label.fa.setFont(.regular, size: 40)
+        label.fa.text = FontAwesome.Solid.Others.fontawesomelogofull
+        label.textColor = .orange
+        label.sizeToFit()
+        label.center = CGPoint(x: view.center.x, y: view.center.y - 200)
+        view.addSubview(label)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 }

@@ -1,6 +1,8 @@
 import XCTest
 import FontAwesome
 
+// swiftlint:disable trailing_whitespace
+// swiftlint:disable empty_parentheses_with_trailing_closure
 class Tests: XCTestCase {
     
     override func setUp() {

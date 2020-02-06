@@ -1,0 +1,16 @@
+PODS:
+  - FontAwesome (0.1.0)
+
+DEPENDENCIES:
+  - FontAwesome (from `../`)
+
+EXTERNAL SOURCES:
+  FontAwesome:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FontAwesome: 6bfe71410b77fab63dcbfe5c8261d1197d82c306
+
+PODFILE CHECKSUM: 061ff9ed454380c399a1287698deb8e9d71c04f5
+
+COCOAPODS: 1.8.4

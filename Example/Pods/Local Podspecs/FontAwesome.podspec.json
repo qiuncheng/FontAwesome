@@ -1,0 +1,25 @@
+{
+  "name": "FontAwesome",
+  "version": "0.1.0",
+  "summary": "A short description of FontAwesome.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qiuncheng/FontAwesome",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qiuncheng": "qiuncheng@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/qiuncheng/FontAwesome.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FontAwesome/Classes/**/*",
+  "resources": [
+    "FontAwesome/Assets/**/*.otf"
+  ]
+}
