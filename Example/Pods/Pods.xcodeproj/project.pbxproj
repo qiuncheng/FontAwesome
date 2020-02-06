@@ -17,7 +17,7 @@
 		515CF63C9B6BD88F5BB7342EEC43FB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		53B53C72078C7B648D24A893C15305B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		721226963441553DDC9B1C6968EA9C49 /* Brands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482BDED3D75B52B3FA8400F074BE611 /* Brands.swift */; };
-		865B3BE723EBF08200619CEB /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B3BE623EBF08200619CEB /* Font.swift */; };
+		865B3BE723EBF08200619CEB /* FAFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B3BE623EBF08200619CEB /* FAFont.swift */; };
 		8EABFE4BCCFD43BAF4FA7B6457C1FEBE /* Pods-FontAwesome_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 401C90D2D57B88DD37E27525941FE7F4 /* Pods-FontAwesome_Tests-dummy.m */; };
 		93AE9963422D0D1BBA64C10663F522B9 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7604F429B01FEC7A838BF95CAB9CA51B /* Font Awesome 5 Free-Solid-900.otf */; };
 		95B3F880D2AA1235CB75B93576AA9910 /* Pods-FontAwesome_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12824476B6245E409A4DC7380A8BE732 /* Pods-FontAwesome_Example-dummy.m */; };
@@ -72,7 +72,7 @@
 		7604F429B01FEC7A838BF95CAB9CA51B /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Font Awesome 5 Free-Solid-900.otf"; path = "FontAwesome/Assets/Font/Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
 		81E3EFA82071D350C50CA22EABF0262A /* FontAwesomeCompatiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeCompatiable.swift; path = FontAwesome/Classes/FontAwesomeCompatiable.swift; sourceTree = "<group>"; };
 		85EA0DB8207C3AEC02EFEEA06F5DCC59 /* Pods_FontAwesome_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FontAwesome_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		865B3BE623EBF08200619CEB /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Font.swift; path = FontAwesome/Classes/Font.swift; sourceTree = "<group>"; };
+		865B3BE623EBF08200619CEB /* FAFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FAFont.swift; path = FontAwesome/Classes/FAFont.swift; sourceTree = "<group>"; };
 		8675354C3ABC72BC8DE8D8D03AEFDD24 /* Key.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Key.swift; path = FontAwesome/Classes/Key.swift; sourceTree = "<group>"; };
 		8851DC7BCA8DDCA7422DBA0F1205C12C /* Pods-FontAwesome_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FontAwesome_Example-Info.plist"; sourceTree = "<group>"; };
 		8D1585EEA6DB0B67844ADE00D85BDDB1 /* Pods-FontAwesome_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FontAwesome_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 				334F578F2F7952514217455548E5AC11 /* Regular.swift */,
 				E968466975E5E7DF2777B350F9F514A4 /* Solid.swift */,
 				75666ECF3437446997729DDE62A4C907 /* UILabel+FontAwesome.swift */,
-				865B3BE623EBF08200619CEB /* Font.swift */,
+				865B3BE623EBF08200619CEB /* FAFont.swift */,
 				1A9345AE5191016AEFEAB6BFC3DABC28 /* Pod */,
 				69D7A3EFB0E13FA0964235241D8FB891 /* Resources */,
 				93186B6713C3E0440EAE0754F2005966 /* Support Files */,
@@ -439,7 +439,7 @@
 				0DD9D6BE3B8C0C325240F41437A23DA5 /* FontLoader.swift in Sources */,
 				D3FD5018E340E3035339E71580C60BE1 /* Key.swift in Sources */,
 				0E19B075E13A18148B3363D4E2D4A470 /* Log.swift in Sources */,
-				865B3BE723EBF08200619CEB /* Font.swift in Sources */,
+				865B3BE723EBF08200619CEB /* FAFont.swift in Sources */,
 				4DEA451735C7F5E5D1396D5E9826C620 /* Regular.swift in Sources */,
 				E81A8D2FB93626E38CA243AA0FCF3412 /* Solid.swift in Sources */,
 				25A0967F3A376CC57D70F5F6B23732A2 /* UILabel+FontAwesome.swift in Sources */,

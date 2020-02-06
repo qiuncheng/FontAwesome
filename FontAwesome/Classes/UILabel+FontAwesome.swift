@@ -23,7 +23,7 @@ public extension FontAwesomeKit where Base: UILabel {
         }
     }
     
-    func setFont(_ font: Font, size: CGFloat) {
+    func setFont(_ font: FAFont, size: CGFloat) {
         FontLoader.loadFonts()
         base.font = UIFont(name: font.name, size: size)
     }
