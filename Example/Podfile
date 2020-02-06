@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FontAwesome_Example' do
+  pod 'FontAwesome', :path => '../'
+
+  target 'FontAwesome_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
