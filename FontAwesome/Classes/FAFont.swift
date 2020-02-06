@@ -39,6 +39,5 @@ struct FontAwesomeName {
     /// name of `FontAwesome` font.
     static let brands = "Font Awesome 5 Brands-Regular-400"
     static let regular = "Font Awesome 5 Free-Regular-400"
-    static
-    let solid = "Font Awesome 5 Free-Solid-900"
+    static let solid = "Font Awesome 5 Free-Solid-900"
 }
