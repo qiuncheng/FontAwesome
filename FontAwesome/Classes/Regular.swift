@@ -1,64 +1,11 @@
 public extension FontAwesome {
-    struct Regular {
-        public struct Maritime {
-            public static let compass = FontAwesome("\u{f14e}")
+    public struct Regular {
+        public struct Music {
+            public static let fileaudio = FontAwesome("\u{f1c7}")
         }
         
-        public static let maritimes: [FontAwesome] = [
-            Maritime.compass,
-        ]
-        public struct Household {
-            public static let lightbulb = FontAwesome("\u{f0eb}")
-        }
-        
-        public static let households: [FontAwesome] = [
-            Household.lightbulb,
-        ]
-        public struct DateTime {
-            public static let clock = FontAwesome("\u{f017}")
-        }
-        
-        public static let dateTimes: [FontAwesome] = [
-            DateTime.clock,
-        ]
-        public struct Images {
-            public static let image = FontAwesome("\u{f03e}")
-            public static let images = FontAwesome("\u{f302}")
-        }
-        
-        public static let images: [FontAwesome] = [
-            Images.image,
-            Images.images,
-        ]
-        public struct Alert {
-            public static let bellslash = FontAwesome("\u{f1f6}")
-        }
-        
-        public static let alerts: [FontAwesome] = [
-            Alert.bellslash,
-        ]
-        public struct Objects {
-            public static let building = FontAwesome("\u{f1ad}")
-            public static let hdd = FontAwesome("\u{f0a0}")
-            public static let hourglass = FontAwesome("\u{f254}")
-            public static let lemon = FontAwesome("\u{f094}")
-            public static let lifering = FontAwesome("\u{f1cd}")
-            public static let map = FontAwesome("\u{f279}")
-            public static let moneybillalt = FontAwesome("\u{f3d1}")
-            public static let newspaper = FontAwesome("\u{f1ea}")
-            public static let paperplane = FontAwesome("\u{f1d8}")
-        }
-        
-        public static let objects: [FontAwesome] = [
-            Objects.building,
-            Objects.hdd,
-            Objects.hourglass,
-            Objects.lemon,
-            Objects.lifering,
-            Objects.map,
-            Objects.moneybillalt,
-            Objects.newspaper,
-            Objects.paperplane,
+        public static let musics: [FontAwesome] = [
+            Music.fileaudio,
         ]
         public struct Accessibility {
             public static let closedcaptioning = FontAwesome("\u{f20a}")
@@ -67,90 +14,21 @@ public extension FontAwesome {
         public static let accessibilitys: [FontAwesome] = [
             Accessibility.closedcaptioning,
         ]
-        public struct Interfaces {
-            public static let calendaralt = FontAwesome("\u{f073}")
-            public static let calendarcheck = FontAwesome("\u{f274}")
-            public static let calendarminus = FontAwesome("\u{f272}")
-            public static let calendarplus = FontAwesome("\u{f271}")
-            public static let calendartimes = FontAwesome("\u{f273}")
-            public static let checkcircle = FontAwesome("\u{f058}")
-            public static let checksquare = FontAwesome("\u{f14a}")
-            public static let clipboard = FontAwesome("\u{f328}")
-            public static let dotcircle = FontAwesome("\u{f192}")
-            public static let envelope = FontAwesome("\u{f0e0}")
-            public static let envelopeopen = FontAwesome("\u{f2b6}")
-            public static let flag = FontAwesome("\u{f024}")
-            public static let minussquare = FontAwesome("\u{f146}")
-            public static let plussquare = FontAwesome("\u{f0fe}")
-            public static let questioncircle = FontAwesome("\u{f059}")
-            public static let sharesquare = FontAwesome("\u{f14d}")
-            public static let starhalf = FontAwesome("\u{f089}")
-            public static let timescircle = FontAwesome("\u{f057}")
-            public static let trashalt = FontAwesome("\u{f2ed}")
+        public struct Medical {
+            public static let heart = FontAwesome("\u{f004}")
+            public static let hospital = FontAwesome("\u{f0f8}")
         }
         
-        public static let interfaces: [FontAwesome] = [
-            Interfaces.calendaralt,
-            Interfaces.calendarcheck,
-            Interfaces.calendarminus,
-            Interfaces.calendarplus,
-            Interfaces.calendartimes,
-            Interfaces.checkcircle,
-            Interfaces.checksquare,
-            Interfaces.clipboard,
-            Interfaces.dotcircle,
-            Interfaces.envelope,
-            Interfaces.envelopeopen,
-            Interfaces.flag,
-            Interfaces.minussquare,
-            Interfaces.plussquare,
-            Interfaces.questioncircle,
-            Interfaces.sharesquare,
-            Interfaces.starhalf,
-            Interfaces.timescircle,
-            Interfaces.trashalt,
+        public static let medicals: [FontAwesome] = [
+            Medical.heart,
+            Medical.hospital,
         ]
-        public struct Design {
-            public static let edit = FontAwesome("\u{f044}")
-            public static let eye = FontAwesome("\u{f06e}")
-            public static let eyeslash = FontAwesome("\u{f070}")
-            public static let objectgroup = FontAwesome("\u{f247}")
-            public static let objectungroup = FontAwesome("\u{f248}")
+        public struct DateTime {
+            public static let clock = FontAwesome("\u{f017}")
         }
         
-        public static let designs: [FontAwesome] = [
-            Design.edit,
-            Design.eye,
-            Design.eyeslash,
-            Design.objectgroup,
-            Design.objectungroup,
-        ]
-        public struct AudioVideo {
-            public static let pausecircle = FontAwesome("\u{f28b}")
-            public static let playcircle = FontAwesome("\u{f144}")
-            public static let stopcircle = FontAwesome("\u{f28d}")
-        }
-        
-        public static let audioVideos: [FontAwesome] = [
-            AudioVideo.pausecircle,
-            AudioVideo.playcircle,
-            AudioVideo.stopcircle,
-        ]
-        public struct Hotel {
-            public static let snowflake = FontAwesome("\u{f2dc}")
-        }
-        
-        public static let hotels: [FontAwesome] = [
-            Hotel.snowflake,
-        ]
-        public struct ScienceFiction {
-            public static let handspock = FontAwesome("\u{f259}")
-            public static let moon = FontAwesome("\u{f186}")
-        }
-        
-        public static let scienceFictions: [FontAwesome] = [
-            ScienceFiction.handspock,
-            ScienceFiction.moon,
+        public static let dateTimes: [FontAwesome] = [
+            DateTime.clock,
         ]
         public struct Hands {
             public static let handlizard = FontAwesome("\u{f258}")
@@ -163,6 +41,7 @@ public extension FontAwesome {
             public static let handpointer = FontAwesome("\u{f25a}")
             public static let handrock = FontAwesome("\u{f255}")
             public static let handscissors = FontAwesome("\u{f257}")
+            public static let handspock = FontAwesome("\u{f259}")
         }
         
         public static let hands: [FontAwesome] = [
@@ -176,107 +55,284 @@ public extension FontAwesome {
             Hands.handpointer,
             Hands.handrock,
             Hands.handscissors,
+            Hands.handspock,
         ]
-        public struct Code {
+        public struct Objects {
+            public static let calendar = FontAwesome("\u{f133}")
+            public static let calendaralt = FontAwesome("\u{f073}")
+            public static let clipboard = FontAwesome("\u{f328}")
+            public static let compass = FontAwesome("\u{f14e}")
+            public static let copy = FontAwesome("\u{f0c5}")
+            public static let envelope = FontAwesome("\u{f0e0}")
+            public static let envelopeopen = FontAwesome("\u{f2b6}")
             public static let file = FontAwesome("\u{f15b}")
             public static let filealt = FontAwesome("\u{f15c}")
-            public static let filecode = FontAwesome("\u{f1c9}")
-            public static let folder = FontAwesome("\u{f07b}")
-            public static let folderopen = FontAwesome("\u{f07c}")
+            public static let futbol = FontAwesome("\u{f1e3}")
+            public static let hdd = FontAwesome("\u{f0a0}")
+            public static let hourglass = FontAwesome("\u{f254}")
             public static let keyboard = FontAwesome("\u{f11c}")
-            public static let windowclose = FontAwesome("\u{f410}")
-            public static let windowmaximize = FontAwesome("\u{f2d0}")
-            public static let windowminimize = FontAwesome("\u{f2d1}")
-            public static let windowrestore = FontAwesome("\u{f2d2}")
+            public static let moon = FontAwesome("\u{f186}")
+            public static let paperplane = FontAwesome("\u{f1d8}")
+            public static let save = FontAwesome("\u{f0c7}")
+            public static let snowflake = FontAwesome("\u{f2dc}")
+            public static let stickynote = FontAwesome("\u{f249}")
+            public static let sun = FontAwesome("\u{f185}")
+            public static let trashalt = FontAwesome("\u{f2ed}")
         }
         
-        public static let codes: [FontAwesome] = [
-            Code.file,
-            Code.filealt,
-            Code.filecode,
-            Code.folder,
-            Code.folderopen,
-            Code.keyboard,
-            Code.windowclose,
-            Code.windowmaximize,
-            Code.windowminimize,
-            Code.windowrestore,
+        public static let objects: [FontAwesome] = [
+            Objects.calendar,
+            Objects.calendaralt,
+            Objects.clipboard,
+            Objects.compass,
+            Objects.copy,
+            Objects.envelope,
+            Objects.envelopeopen,
+            Objects.file,
+            Objects.filealt,
+            Objects.futbol,
+            Objects.hdd,
+            Objects.hourglass,
+            Objects.keyboard,
+            Objects.moon,
+            Objects.paperplane,
+            Objects.save,
+            Objects.snowflake,
+            Objects.stickynote,
+            Objects.sun,
+            Objects.trashalt,
+        ]
+        public struct Status {
+            public static let calendarcheck = FontAwesome("\u{f274}")
+            public static let calendarminus = FontAwesome("\u{f272}")
+            public static let calendarplus = FontAwesome("\u{f271}")
+            public static let calendartimes = FontAwesome("\u{f273}")
+            public static let minussquare = FontAwesome("\u{f146}")
+            public static let questioncircle = FontAwesome("\u{f059}")
+            public static let starhalf = FontAwesome("\u{f089}")
+        }
+        
+        public static let status: [FontAwesome] = [
+            Status.calendarcheck,
+            Status.calendarminus,
+            Status.calendarplus,
+            Status.calendartimes,
+            Status.minussquare,
+            Status.questioncircle,
+            Status.starhalf,
+        ]
+        public struct Chat {
+            public static let commentdots = FontAwesome("\u{f4ad}")
+        }
+        
+        public static let chats: [FontAwesome] = [
+            Chat.commentdots,
+        ]
+        public struct UsersPeople {
+            public static let idbadge = FontAwesome("\u{f2c1}")
+            public static let idcard = FontAwesome("\u{f2c2}")
+            public static let user = FontAwesome("\u{f007}")
+            public static let usercircle = FontAwesome("\u{f2bd}")
+        }
+        
+        public static let usersPeoples: [FontAwesome] = [
+            UsersPeople.idbadge,
+            UsersPeople.idcard,
+            UsersPeople.user,
+            UsersPeople.usercircle,
+        ]
+        public struct Design {
+            public static let objectgroup = FontAwesome("\u{f247}")
+            public static let objectungroup = FontAwesome("\u{f248}")
+        }
+        
+        public static let designs: [FontAwesome] = [
+            Design.objectgroup,
+            Design.objectungroup,
+        ]
+        public struct Maps {
+            public static let bellslash = FontAwesome("\u{f1f6}")
+            public static let building = FontAwesome("\u{f1ad}")
+            public static let eye = FontAwesome("\u{f06e}")
+            public static let eyeslash = FontAwesome("\u{f070}")
+            public static let flag = FontAwesome("\u{f024}")
+            public static let image = FontAwesome("\u{f03e}")
+            public static let images = FontAwesome("\u{f302}")
+            public static let lemon = FontAwesome("\u{f094}")
+            public static let lifering = FontAwesome("\u{f1cd}")
+            public static let lightbulb = FontAwesome("\u{f0eb}")
+            public static let map = FontAwesome("\u{f279}")
+            public static let moneybillalt = FontAwesome("\u{f3d1}")
+            public static let newspaper = FontAwesome("\u{f1ea}")
+            public static let plussquare = FontAwesome("\u{f0fe}")
+        }
+        
+        public static let maps: [FontAwesome] = [
+            Maps.bellslash,
+            Maps.building,
+            Maps.eye,
+            Maps.eyeslash,
+            Maps.flag,
+            Maps.image,
+            Maps.images,
+            Maps.lemon,
+            Maps.lifering,
+            Maps.lightbulb,
+            Maps.map,
+            Maps.moneybillalt,
+            Maps.newspaper,
+            Maps.plussquare,
+        ]
+        public struct Interfaces {
+            public static let checksquare = FontAwesome("\u{f14a}")
+            public static let sharesquare = FontAwesome("\u{f14d}")
+            public static let timescircle = FontAwesome("\u{f057}")
+        }
+        
+        public static let interfaces: [FontAwesome] = [
+            Interfaces.checksquare,
+            Interfaces.sharesquare,
+            Interfaces.timescircle,
         ]
         public struct Business {
             public static let chartbar = FontAwesome("\u{f080}")
             public static let copyright = FontAwesome("\u{f1f9}")
+            public static let edit = FontAwesome("\u{f044}")
+            public static let folder = FontAwesome("\u{f07b}")
+            public static let folderopen = FontAwesome("\u{f07c}")
             public static let registered = FontAwesome("\u{f25d}")
         }
         
         public static let business: [FontAwesome] = [
             Business.chartbar,
             Business.copyright,
+            Business.edit,
+            Business.folder,
+            Business.folderopen,
             Business.registered,
         ]
-        public struct Energy {
-            public static let sun = FontAwesome("\u{f185}")
+        public struct Toggle {
+            public static let checkcircle = FontAwesome("\u{f058}")
+            public static let dotcircle = FontAwesome("\u{f192}")
         }
         
-        public static let energys: [FontAwesome] = [
-            Energy.sun,
+        public static let toggles: [FontAwesome] = [
+            Toggle.checkcircle,
+            Toggle.dotcircle,
         ]
         public struct Shapes {
-            public static let calendar = FontAwesome("\u{f133}")
             public static let circle = FontAwesome("\u{f111}")
-            public static let comment = FontAwesome("\u{f075}")
             public static let square = FontAwesome("\u{f0c8}")
         }
         
         public static let shapes: [FontAwesome] = [
-            Shapes.calendar,
             Shapes.circle,
-            Shapes.comment,
             Shapes.square,
         ]
+        public struct AudioVideo {
+            public static let pausecircle = FontAwesome("\u{f28b}")
+            public static let playcircle = FontAwesome("\u{f144}")
+            public static let stopcircle = FontAwesome("\u{f28d}")
+        }
+        
+        public static let audioVideos: [FontAwesome] = [
+            AudioVideo.pausecircle,
+            AudioVideo.playcircle,
+            AudioVideo.stopcircle,
+        ]
         public struct Files {
-            public static let clone = FontAwesome("\u{f24d}")
-            public static let copy = FontAwesome("\u{f0c5}")
             public static let filearchive = FontAwesome("\u{f1c6}")
-            public static let fileaudio = FontAwesome("\u{f1c7}")
+            public static let filecode = FontAwesome("\u{f1c9}")
             public static let fileexcel = FontAwesome("\u{f1c3}")
             public static let fileimage = FontAwesome("\u{f1c5}")
             public static let filepdf = FontAwesome("\u{f1c1}")
             public static let filepowerpoint = FontAwesome("\u{f1c4}")
             public static let filevideo = FontAwesome("\u{f1c8}")
             public static let fileword = FontAwesome("\u{f1c2}")
-            public static let save = FontAwesome("\u{f0c7}")
-            public static let stickynote = FontAwesome("\u{f249}")
         }
         
         public static let files: [FontAwesome] = [
-            Files.clone,
-            Files.copy,
             Files.filearchive,
-            Files.fileaudio,
+            Files.filecode,
             Files.fileexcel,
             Files.fileimage,
             Files.filepdf,
             Files.filepowerpoint,
             Files.filevideo,
             Files.fileword,
-            Files.save,
-            Files.stickynote,
+        ]
+        public struct PaymentsShopping {
+            public static let bell = FontAwesome("\u{f0f3}")
+            public static let bookmark = FontAwesome("\u{f02e}")
+            public static let creditcard = FontAwesome("\u{f09d}")
+            public static let gem = FontAwesome("\u{f3a5}")
+            public static let handshake = FontAwesome("\u{f2b5}")
+            public static let star = FontAwesome("\u{f005}")
+            public static let thumbsdown = FontAwesome("\u{f165}")
+            public static let thumbsup = FontAwesome("\u{f164}")
+        }
+        
+        public static let paymentsShoppings: [FontAwesome] = [
+            PaymentsShopping.bell,
+            PaymentsShopping.bookmark,
+            PaymentsShopping.creditcard,
+            PaymentsShopping.gem,
+            PaymentsShopping.handshake,
+            PaymentsShopping.star,
+            PaymentsShopping.thumbsdown,
+            PaymentsShopping.thumbsup,
         ]
         public struct Editors {
+            public static let clone = FontAwesome("\u{f24d}")
             public static let listalt = FontAwesome("\u{f022}")
         }
         
         public static let editors: [FontAwesome] = [
+            Editors.clone,
             Editors.listalt,
         ]
+        public struct Others {
+            public static let fontawesomelogofull = FontAwesome("\u{f4e6}")
+        }
+        
+        public static let others: [FontAwesome] = [
+            Others.fontawesomelogofull,
+        ]
         public struct Communication {
+            public static let addressbook = FontAwesome("\u{f2b9}")
+            public static let addresscard = FontAwesome("\u{f2bb}")
+            public static let comment = FontAwesome("\u{f075}")
             public static let commentalt = FontAwesome("\u{f27a}")
             public static let comments = FontAwesome("\u{f086}")
         }
         
         public static let communications: [FontAwesome] = [
+            Communication.addressbook,
+            Communication.addresscard,
+            Communication.comment,
             Communication.commentalt,
             Communication.comments,
+        ]
+        public struct Arrows {
+            public static let arrowaltcircledown = FontAwesome("\u{f358}")
+            public static let arrowaltcircleleft = FontAwesome("\u{f359}")
+            public static let arrowaltcircleright = FontAwesome("\u{f35a}")
+            public static let arrowaltcircleup = FontAwesome("\u{f35b}")
+            public static let caretsquaredown = FontAwesome("\u{f150}")
+            public static let caretsquareleft = FontAwesome("\u{f191}")
+            public static let caretsquareright = FontAwesome("\u{f152}")
+            public static let caretsquareup = FontAwesome("\u{f151}")
+        }
+        
+        public static let arrows: [FontAwesome] = [
+            Arrows.arrowaltcircledown,
+            Arrows.arrowaltcircleleft,
+            Arrows.arrowaltcircleright,
+            Arrows.arrowaltcircleup,
+            Arrows.caretsquaredown,
+            Arrows.caretsquareleft,
+            Arrows.caretsquareright,
+            Arrows.caretsquareup,
         ]
         public struct Emoji {
             public static let angry = FontAwesome("\u{f556}")
@@ -355,94 +411,18 @@ public extension FontAwesome {
             Emoji.surprise,
             Emoji.tired,
         ]
-        public struct Medical {
-            public static let hospital = FontAwesome("\u{f0f8}")
+        public struct Code {
+            public static let windowclose = FontAwesome("\u{f410}")
+            public static let windowmaximize = FontAwesome("\u{f2d0}")
+            public static let windowminimize = FontAwesome("\u{f2d1}")
+            public static let windowrestore = FontAwesome("\u{f2d2}")
         }
         
-        public static let medicals: [FontAwesome] = [
-            Medical.hospital,
-        ]
-        public struct Sports {
-            public static let futbol = FontAwesome("\u{f1e3}")
-        }
-        
-        public static let sports: [FontAwesome] = [
-            Sports.futbol,
-        ]
-        public struct Arrows {
-            public static let arrowaltcircledown = FontAwesome("\u{f358}")
-            public static let arrowaltcircleleft = FontAwesome("\u{f359}")
-            public static let arrowaltcircleright = FontAwesome("\u{f35a}")
-            public static let arrowaltcircleup = FontAwesome("\u{f35b}")
-            public static let caretsquaredown = FontAwesome("\u{f150}")
-            public static let caretsquareleft = FontAwesome("\u{f191}")
-            public static let caretsquareright = FontAwesome("\u{f152}")
-            public static let caretsquareup = FontAwesome("\u{f151}")
-        }
-        
-        public static let arrows: [FontAwesome] = [
-            Arrows.arrowaltcircledown,
-            Arrows.arrowaltcircleleft,
-            Arrows.arrowaltcircleright,
-            Arrows.arrowaltcircleup,
-            Arrows.caretsquaredown,
-            Arrows.caretsquareleft,
-            Arrows.caretsquareright,
-            Arrows.caretsquareup,
-        ]
-        public struct PaymentsShopping {
-            public static let bell = FontAwesome("\u{f0f3}")
-            public static let bookmark = FontAwesome("\u{f02e}")
-            public static let creditcard = FontAwesome("\u{f09d}")
-            public static let gem = FontAwesome("\u{f3a5}")
-            public static let handshake = FontAwesome("\u{f2b5}")
-            public static let heart = FontAwesome("\u{f004}")
-            public static let star = FontAwesome("\u{f005}")
-            public static let thumbsdown = FontAwesome("\u{f165}")
-            public static let thumbsup = FontAwesome("\u{f164}")
-        }
-        
-        public static let paymentsShoppings: [FontAwesome] = [
-            PaymentsShopping.bell,
-            PaymentsShopping.bookmark,
-            PaymentsShopping.creditcard,
-            PaymentsShopping.gem,
-            PaymentsShopping.handshake,
-            PaymentsShopping.heart,
-            PaymentsShopping.star,
-            PaymentsShopping.thumbsdown,
-            PaymentsShopping.thumbsup,
-        ]
-        public struct UsersPeople {
-            public static let addressbook = FontAwesome("\u{f2b9}")
-            public static let addresscard = FontAwesome("\u{f2bb}")
-            public static let idbadge = FontAwesome("\u{f2c1}")
-            public static let idcard = FontAwesome("\u{f2c2}")
-            public static let user = FontAwesome("\u{f007}")
-            public static let usercircle = FontAwesome("\u{f2bd}")
-        }
-        
-        public static let usersPeoples: [FontAwesome] = [
-            UsersPeople.addressbook,
-            UsersPeople.addresscard,
-            UsersPeople.idbadge,
-            UsersPeople.idcard,
-            UsersPeople.user,
-            UsersPeople.usercircle,
-        ]
-        public struct Others {
-            public static let fontawesomelogofull = FontAwesome("\u{f4e6}")
-        }
-        
-        public static let others: [FontAwesome] = [
-            Others.fontawesomelogofull,
-        ]
-        public struct Chat {
-            public static let commentdots = FontAwesome("\u{f4ad}")
-        }
-        
-        public static let chats: [FontAwesome] = [
-            Chat.commentdots,
+        public static let codes: [FontAwesome] = [
+            Code.windowclose,
+            Code.windowmaximize,
+            Code.windowminimize,
+            Code.windowrestore,
         ]
     }
 }
