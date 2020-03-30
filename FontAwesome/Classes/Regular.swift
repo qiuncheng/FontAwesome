@@ -1,5 +1,5 @@
 public extension FontAwesome {
-    public struct Regular {
+    struct Regular {
         public struct Music {
             public static let fileaudio = FontAwesome("\u{f1c7}")
         }

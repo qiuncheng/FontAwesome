@@ -1,5 +1,5 @@
 public extension FontAwesome {
-    public struct Brands {
+    struct Brands {
         public struct ScienceFiction {
             public static let galacticrepublic = FontAwesome("\u{f50c}")
             public static let galacticsenate = FontAwesome("\u{f50d}")

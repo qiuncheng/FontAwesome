@@ -1,5 +1,5 @@
 public extension FontAwesome {
-    public struct Solid {
+    struct Solid {
         public struct Status {
             public static let ban = FontAwesome("\u{f05e}")
             public static let batteryempty = FontAwesome("\u{f244}")
